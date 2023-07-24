@@ -53,6 +53,11 @@ body {
   margin: 0 auto;
 }
 
+/* section 레이아웃 공통 패딩 */
+.wrap > section {
+  padding: 80px 0;
+}
+
 /* 전체 레이아웃 */
 .wrap {
   position: relative;
@@ -188,7 +193,7 @@ header {
   background-position: 0px 0px;
 }
 
-.center-more:hover::after {
+.center-more.active::after {
   background-position: 0px -6px;
 }
 
@@ -308,7 +313,7 @@ header {
 }
 
 .all-menu {
-  background-color: #ff9933;
+  background-color: #fff;
   position: absolute;
   left: 0;
   top: 41px;
@@ -327,7 +332,7 @@ header {
   visibility: visible;
 }
 
-.all-menu:hover {
+.all-menu.active {
   width: 420px;
 }
 
@@ -457,7 +462,7 @@ header {
 .deli-list > li > a {
   position: relative;
   display: block;
-  padding: 24px;
+  padding: 0 24px;
   color: #666;
 }
 
@@ -691,3 +696,21 @@ header {
   font-size: 11px;
   font-weight: 700;
 }
+
+/* 비주얼 */
+.visual {
+  position: relative;
+  display: block;
+  height: 410px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.visual-slide {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* 슬라이드 이전 다음 버튼 */

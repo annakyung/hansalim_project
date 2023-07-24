@@ -88,6 +88,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- link swiper's css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- css -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- js -->
@@ -527,11 +534,11 @@
               </nav>
 
               <div class="more-menu">
-                <button class="more-menu-bt" id="more-menu-bt">
+                <button class="more-menu-bt" id="menu-bt">
                   더보기 <i class="more-menu-icon"></i>
                 </button>
 
-                <ul class="more-menu-list" id="more-menu-list">
+                <ul class="more-menu-list" id="menu-list">
                   <li><a href="#">한살림이야기</a></li>
                   <li><a href="#">생산자와 물품</a></li>
                   <li><a href="#">세상의 밥</a></li>
@@ -561,7 +568,27 @@
       </header>
 
       <!-- 비주얼 -->
-      <div class="slide"></div>
+      <section class="visual">
+        <div class="visual-slide">
+          <!-- 비주얼 슬라이드 -->
+          <div class="swiper sw-visual">
+            <div class="swiper-wrapper" id="data-visual">
+              <!-- 데이터 출력 -->
+            </div>
+          </div>
+        </div>
+
+        <!-- 좌우 슬라이드 이동 버튼 -->
+        <button class="visual-prev">이전</button>
+        <button class="visual-next">다음</button>
+
+        <!-- 슬라이드 컨트롤러 -->
+        <div class="visual-control clear-fix">
+          <button class="visual-play"></button>
+          <div class="visual-pg">1/17</div>
+          <button class="visual-more"></button>
+        </div>
+      </section>
 
       <!-- 오늘의 상품 -->
       <!-- 알뜰 상품 -->
