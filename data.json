@@ -69,7 +69,7 @@
       "price": "2250",
       "tag": "인기",
       "pic": "../images/good_1.jpg",
-      "id": "1",
+      "id": "0",
       "link": "#"
     },
     {
@@ -78,7 +78,7 @@
       "price": "1100",
       "tag": "인기",
       "pic": "../images/good_2.jpg",
-      "id": "2",
+      "id": "1",
       "link": "#"
     },
     {
@@ -87,7 +87,7 @@
       "price": "2500",
       "tag": "인기",
       "pic": "../images/good_3.jpg",
-      "id": "3",
+      "id": "2",
       "link": "#"
     },
     {
@@ -96,7 +96,7 @@
       "price": "3600",
       "tag": "인기",
       "pic": "../images/good_4.jpg",
-      "id": "4",
+      "id": "3",
       "link": "#"
     },
     {
@@ -105,7 +105,7 @@
       "price": "5000",
       "tag": "인기",
       "pic": "../images/good_5.jpg",
-      "id": "5",
+      "id": "4",
       "link": "#"
     },
     {
@@ -114,7 +114,7 @@
       "price": "3000",
       "tag": "인기",
       "pic": "../images/good_6.jpg",
-      "id": "6",
+      "id": "5",
       "link": "#"
     },
     {
@@ -123,7 +123,7 @@
       "price": "3500",
       "tag": "인기",
       "pic": "../images/good_7.jpg",
-      "id": "7",
+      "id": "6",
       "link": "#"
     },
     {
@@ -132,7 +132,120 @@
       "price": "20300",
       "tag": "인기",
       "pic": "../images/good_8.jpg",
-      "id": "8",
+      "id": "7",
+      "link": "#"
+    }
+  ],
+
+  "salegood": [
+    {
+      "name": "로메인",
+      "unit": "150g",
+      "price": "2250",
+      "tag": "인기",
+      "pic": "../images/good_1.jpg",
+      "id": "0",
+      "link": "#"
+    },
+    {
+      "name": "깻잎",
+      "unit": "30장",
+      "price": "1100",
+      "tag": "인기",
+      "pic": "../images/good_2.jpg",
+      "id": "1",
+      "link": "#"
+    },
+    {
+      "name": "엔디브",
+      "unit": "200g",
+      "price": "2500",
+      "tag": "인기",
+      "pic": "../images/good_3.jpg",
+      "id": "2",
+      "link": "#"
+    },
+    {
+      "name": "감자",
+      "unit": "1kg",
+      "price": "3600",
+      "tag": "인기",
+      "pic": "../images/good_4.jpg",
+      "id": "3",
+      "link": "#"
+    },
+    {
+      "name": "고구마",
+      "unit": "1kg",
+      "price": "5000",
+      "tag": "인기",
+      "pic": "../images/good_5.jpg",
+      "id": "4",
+      "link": "#"
+    },
+    {
+      "name": "당근",
+      "unit": "500g",
+      "price": "3000",
+      "tag": "인기",
+      "pic": "../images/good_6.jpg",
+      "id": "5",
+      "link": "#"
+    },
+    {
+      "name": "연근",
+      "unit": "500g",
+      "price": "3500",
+      "tag": "인기",
+      "pic": "../images/good_7.jpg",
+      "id": "6",
+      "link": "#"
+    },
+    {
+      "name": "자연그대로 더마로션",
+      "unit": "200ml",
+      "price": "20300",
+      "tag": "인기",
+      "pic": "../images/good_8.jpg",
+      "id": "7",
+      "link": "#"
+    }
+  ],
+
+  "newgood": [
+    {
+      "title": "조리가 간편하고 부드러운 맛을 내는 '장국된장'",
+      "txt": "밀가루 없이 국산 무농약 감자와 감자전분으로만 만든 옹심이",
+      "pic": "../images/new_1.jpg",
+      "id": "0",
+      "link": "#"
+    },
+    {
+      "title": "따로 육수 낼 필요 없이 진한 국물 ‘만능우동간장’",
+      "txt": "",
+      "pic": "../images/new_2.jpg",
+      "id": "1",
+      "link": "#"
+    },
+    {
+      "title": "부드러운 남도 미역에 전복과 성게알을 더해 끓인 ‘전복성게미역국’",
+      "txt": "",
+      "pic": "../images/new_3.jpg",
+      "id": "2",
+      "link": "#"
+    },
+    {
+      "title": "우리 땅에서 자란 친환경 사과를 부드럽게 갈아 만든 ‘꼬마와땅 사과퓨레’",
+      "txt": "",
+      "pic": "../images/new_4.jpg",
+      "id": "3",
+      "link": "#"
+    },
+    {
+      "title": "조리가 간편하고 부드러운 맛을 내는 '장국된장'",
+      "txt": "",
+      "pic": "../images/new_5.jpg",
+      "id": "4",
       "link": "#"
     }
   ]
