@@ -214,39 +214,203 @@
 
   "newgood": [
     {
-      "title": "조리가 간편하고 부드러운 맛을 내는 '장국된장'",
-      "txt": "밀가루 없이 국산 무농약 감자와 감자전분으로만 만든 옹심이",
+      "title": "국산 꽃사슴 녹용과 홍삼에 한약제를 더한 ‘녹용홍삼정’",
+      "txt": "국산 꽃사슴 녹용과 6년근 홍삼에 백작약, 황금, 당귀 등을 더해 드시는 분의 건강을 생각하며 만들었습니다.",
       "pic": "../images/new_1.jpg",
       "id": "0",
       "link": "#"
     },
     {
-      "title": "따로 육수 낼 필요 없이 진한 국물 ‘만능우동간장’",
-      "txt": "",
+      "title": "국산 꽃사슴 녹용과 6년근 홍삼으로 빚은 ‘녹용홍삼환’",
+      "txt": "국산 꽃사슴 녹용과 6년근 홍삼에 영지버섯, 상황버섯, 숙지황 등을 더해 드시는 분의 건강을 생각하며 만들었습니다.",
       "pic": "../images/new_2.jpg",
       "id": "1",
       "link": "#"
     },
     {
-      "title": "부드러운 남도 미역에 전복과 성게알을 더해 끓인 ‘전복성게미역국’",
-      "txt": "",
+      "title": "새콤 짭조름해 입맛을 개운하게 하는 ‘명이나물장아찌’",
+      "txt": "강원도 명이나물에 양조간장, 유기농현미식초, 유기농설탕으로 절인 장아찌입니다.",
       "pic": "../images/new_3.jpg",
       "id": "2",
       "link": "#"
     },
     {
-      "title": "우리 땅에서 자란 친환경 사과를 부드럽게 갈아 만든 ‘꼬마와땅 사과퓨레’",
-      "txt": "",
+      "title": "제주 딱새우살과 유기 토마토의 만남 ‘칠리새우’",
+      "txt": "자연산 제주 딱새우살 튀김과 유기 토마토로 만든 칠리새우가 어우러진 매콤달콤 칠리새우를 집에서 간편하게 즐기세요!",
       "pic": "../images/new_4.jpg",
       "id": "3",
       "link": "#"
     },
     {
-      "title": "조리가 간편하고 부드러운 맛을 내는 '장국된장'",
-      "txt": "",
+      "title": "진한 원유에 유기농 딸기를 더한 ‘유기농딸기요구르트’",
+      "txt": "유기인증 곡물사료를 먹인 젖소에게 얻는 건강한 원유로 만듭니다.",
       "pic": "../images/new_5.jpg",
       "id": "4",
       "link": "#"
     }
-  ]
+  ],
+
+  "recommendgood": [
+    {
+      "name": "자장소스",
+      "unit": "250g",
+      "price": "2500",
+      "tag": "인기",
+      "pic": "../images/recommend_good_1.jpg",
+      "id": "0",
+      "link": "#"
+    },
+    {
+      "name": "채소볶음밥",
+      "unit": "300g",
+      "price": "3800",
+      "tag": "인기",
+      "pic": "../images/recommend_good_2.jpg",
+      "id": "1",
+      "link": "#"
+    },
+    {
+      "name": "초당옥수수피자",
+      "unit": "230g",
+      "price": "9500",
+      "tag": "인기",
+      "pic": "../images/recommend_good_3.jpg",
+      "id": "2",
+      "link": "#"
+    },
+    {
+      "name": "통살생선가스",
+      "unit": "240g",
+      "price": "6200",
+      "tag": "인기",
+      "pic": "../images/recommend_good_4.jpg",
+      "id": "3",
+      "link": "#"
+    },
+    {
+      "name": "우리밀핫도그",
+      "unit": "200g",
+      "price": "5000",
+      "tag": "인기",
+      "pic": "../images/recommend_good_5.jpg",
+      "id": "4",
+      "link": "#"
+    },
+    {
+      "name": "돼지고기고추장구운주먹밥",
+      "unit": "100g*4개",
+      "price": "5700",
+      "tag": "인기",
+      "pic": "../images/recommend_good_6.jpg",
+      "id": "5",
+      "link": "#"
+    },
+    {
+      "name": "카레닭가슴살주먹밥",
+      "unit": "400g",
+      "price": "6800",
+      "tag": "인기",
+      "pic": "../images/recommend_good_7.jpg",
+      "id": "6",
+      "link": "#"
+    },
+    {
+      "name": "꼬마소시지",
+      "unit": "300g",
+      "price": "5000",
+      "tag": "인기",
+      "pic": "../images/recommend_good_8.jpg",
+      "id": "7",
+      "link": "#"
+    }
+  ],
+
+  "popularicon": [
+    {
+      "id": "icon-1",
+      "icon": "../images/icon_1.png",
+      "txt": "쌀/잡곡",
+      "link": "#"
+    },
+    {
+      "id": "icon-2",
+      "icon": "../images/icon_2.png",
+      "txt": "채소/버섯",
+      "link": "#"
+    },
+    {
+      "id": "icon-3",
+      "icon": "../images/icon_3.png",
+      "txt": "과일/견과",
+      "link": "#"
+    },
+    {
+      "id": "icon-4",
+      "icon": "../images/icon_4.png",
+      "txt": "축산/축산가공",
+      "link": "#"
+    },
+    {
+      "id": "icon-5",
+      "icon": "../images/icon_5.png",
+      "txt": "수산/수산가공",
+      "link": "#"
+    },
+    {
+      "id": "icon-6",
+      "icon": "../images/icon_6.png",
+      "txt": "반찬/양념/가루",
+      "link": "#"
+    },
+    {
+      "id": "icon-7",
+      "icon": "../images/icon_7.png",
+      "txt": "식사대용/간편식",
+      "link": "#"
+    },
+    {
+      "id": "icon-8",
+      "icon": "../images/icon_8.png",
+      "txt": "간식/음료/유제품",
+      "link": "#"
+    },
+    {
+      "id": "icon-9",
+      "icon": "../images/icon_9.png",
+      "txt": "건강/차",
+      "link": "#"
+    },
+    {
+      "id": "icon-10",
+      "icon": "../images/icon_10.png",
+      "txt": "화장품/오가닉코튼",
+      "link": "#"
+    },
+    {
+      "id": "icon-11",
+      "icon": "../images/icon_11.png",
+      "txt": "주방/욕실/세정",
+      "link": "#"
+    },
+    {
+      "id": "icon-12",
+      "icon": "../images/icon_12.png",
+      "txt": "휴지/생활",
+      "link": "#"
+    },
+    {
+      "id": "icon-13",
+      "icon": "../images/icon_13.png",
+      "txt": "반려동물",
+      "link": "#"
+    },
+    {
+      "id": "icon-14",
+      "icon": "../images/icon_14.png",
+      "txt": "대용량/어린이집",
+      "link": "#"
+    }
+  ],
+
+  "populargood": []
 }
