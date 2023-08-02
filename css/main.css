@@ -430,6 +430,20 @@ header {
   transition: width 0.5s;
 }
 
+.all-menu-cate::-webkit-scrollbar {
+  width: 6px;
+}
+
+.all-menu-cate::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  height: 40%;
+  border-radius: 3px;
+}
+
+.all-menu-cate::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
 .all-menu-area:hover .all-menu {
   height: calc(100vh - 105px - 128px);
   /* 보이도록 설정 */
@@ -561,6 +575,10 @@ header {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.deli-list > li:last-child {
+  margin-bottom: 30px;
 }
 
 .deli-list > li > a {
@@ -1384,4 +1402,53 @@ header {
   display: block;
   font-size: 18px;
   font-weight: 500;
+}
+
+/* banner */
+.banner {
+  position: relative;
+  display: block;
+  padding-bottom: 0;
+}
+
+.banner-slide {
+  position: relative;
+  display: block;
+}
+
+.banner-slide a {
+  position: relative;
+  display: block;
+}
+
+.banner-slide-next,
+.banner-slide-prev {
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 19px;
+  height: 34px;
+  cursor: pointer;
+  border: 0;
+  z-index: 99;
+}
+
+.banner-slide-prev {
+  left: 20px;
+  background: url("../images/banner_arrow.png");
+}
+
+.banner-slide-prev:hover {
+  background-position: 0px -34px;
+}
+
+.banner-slide-next {
+  right: 20px;
+  background: url("../images/banner_arrow.png");
+  transform: translateY(-50%) rotateY(180deg);
+}
+
+.banner-slide-next:hover {
+  background-position: 0px -34px;
 }
