@@ -43,6 +43,10 @@ window.onload = function () {
       POPULAR_GOOD = obj.populargood;
       BRAND_ARR = obj.brandarr;
       BANNER_ARR = obj.bannerarr;
+      SEASON_ARR = obj.season;
+      REVIEW_ARR = obj.review;
+      NOTICE_ARR = obj.notice;
+      GOODNEWS_ARR = obj.goodnews;
 
       // 비주얼 화면에 배치한다
       showVisual();
@@ -62,8 +66,17 @@ window.onload = function () {
       showBrandArr();
       // 배너 화면에 배치
       showBannerArr();
+      // 시즌 목록을 화면에 배치
+      showSeason();
+      // 리뷰 목록을 화면에 배치
+      showReview();
+      // 공지사항 목록을 화면에 배치
+      showNotice();
+      // 물품 소식 목록을 화면에 배치
+      showGoodnews();
     }
   };
+
   // 자료를 호출한다.
   console.log("자료를 가져온다. XMLHT.....");
   xhttp.open("GET", "data.json");
@@ -108,6 +121,22 @@ window.onload = function () {
   // 배너 화면 출력
   let BANNER_ARR;
   let bannerTag = document.getElementById("data-banner");
+
+  // 시즌 목록 화면 출력
+  let SEASON_ARR;
+  let seasonTag = document.getElementById("data-season");
+
+  // 리뷰 화면 출력
+  let REVIEW_ARR;
+  let reviewTag = document.getElementById("data-review");
+
+  // 공지사항 화면 출력
+  let NOTICE_ARR;
+  let noticeTag = document.getElementById("data-notice");
+
+  // 물품 소식 화면 출력
+  let GOODNEWS_ARR;
+  let goodnewsTag = document.getElementById("data-goodnews");
 
   // =========================================
   // 비주얼 화면 출력 기능
@@ -585,6 +614,244 @@ window.onload = function () {
         nextEl: ".banner-slide-next",
       },
     });
+  }
+
+  // 시즌 목록 화면 출력 기능
+  const buyTotal = document.getElementById("buy-total");
+  const buyTotalMoney = document.getElementById("buy-total-money");
+  let buyTotalCount = 0;
+  let buyTotalMoneyPrice = 0;
+
+  function showSeason() {
+    let html = "";
+    SEASON_ARR.forEach(function (item, index) {
+      const tag = `
+      <li >
+        <div class="season-good clearfix">
+          <input 
+            type="checkbox"
+            id="ch${index}"
+            class="season-good-check season-item"
+            checked
+            value= ${item.price}
+          />
+          
+          <label for="ch${index}" class="season-label">
+            ${item.title}
+          </label>
+
+          <a href="${item.link}" class="season-good-img">
+            <img src = "../images/${item.pic}" alt ="${item.title}"/>
+          </a>
+
+          <p class = "season-good-info">
+          <a href="${item.link}" class="season-good-title">
+            ${item.title}
+          </a>
+
+          <a href="${item.link}" class="season-good-price">
+            <em>${priceToString(item.price)}</em>원
+          </a>
+        </p>
+       </div>
+      </li>
+      `;
+      html += tag;
+    });
+    seasonTag.innerHTML = html;
+    // Smooth Scrollbar 적용
+    Scrollbar.initAll();
+    // 체크박스 각각의 기능
+    checkBoxFn();
+    // 계산 출력
+    showBuyGood();
+  }
+
+  // 전체 체크박스 기능
+  const chkAll = document.getElementById("chall");
+  chkAll.addEventListener("change", function () {
+    const chkArr = document.querySelectorAll(".season-item");
+
+    if (chkAll.checked) {
+      // 전체 체크를 해야 하는 경우
+      chkArr.forEach(function (item) {
+        item.checked = true;
+      });
+    } else {
+      // 전체 체크를 해제 해야 하는 경우
+      chkArr.forEach(function (item) {
+        item.checked = false;
+      });
+    }
+
+    // 계산 출력
+    showBuyGood();
+  });
+
+  //체크박스 각각의 기능
+  function checkBoxFn() {
+    const chkArr = document.querySelectorAll(".season-item");
+    chkArr.forEach(function (item) {
+      item.addEventListener("change", function () {
+        //가격을 다시 계산한다.
+        //계산 출력
+        showBuyGood();
+      });
+    });
+  }
+
+  //계산 출력 기능
+  function showBuyGood() {
+    //체크가 된 카운팅을 한다 그리고 더한다.
+    let count = 0;
+    let priceTotal = 0;
+    const chkArr = document.querySelectorAll(".season-item");
+    chkArr.forEach(function (item) {
+      const state = item.checked;
+      if (state) {
+        count += 1;
+        //count++
+        //글자를 정수 숫자로 변경함
+        const price = parseInt(item.value);
+        priceTotal += price;
+      }
+    });
+
+    buyTotalCount = count;
+    buyTotalMoneyPrice = priceTotal;
+    buyTotal.innerHTML = buyTotalCount;
+    buyTotalMoney.innerHTML = priceToString(buyTotalMoneyPrice);
+
+    //전체 선택 버튼 해제
+    if (buyTotalCount === chkArr.length) {
+      //전체 체크 버튼 checked되어야 함
+      chkAll.checked = true;
+    } else {
+      //전체 체크 버튼 checked가 해제 되어야 함
+      chkAll.checked = false;
+    }
+  }
+
+  // 리뷰 목록 화면 출력 기능
+  function showReview() {
+    let html = `
+    <div class="swiper sw-review">
+    <div class="swiper-wrapper">
+    `;
+    // 데이터 처리
+    REVIEW_ARR.forEach(function (item) {
+      const tag = `
+      <div class="swiper-slide">
+      <div class="review-box">
+       <a href="${item.link}">
+         <div class= "review-box-desc">
+           <span class= " review-box-title">
+             ${item.title}
+           </span>
+           <span class="review-box-star"> ${item.star} </span>
+           <span class="review-box-img">
+           <img src="images/${item.pic}" alt="${item.title}" />
+           </span>
+         </div>
+         <p class="review-box-txt">
+             ${item.txt}
+         </p>
+        <span class="review-box-user"> ${item.user}${item.shop} </span>
+       </a>
+      </div>
+      </div>
+      `;
+      html += tag;
+    });
+    html += `
+    </div>
+    </div>
+    `;
+    reviewTag.innerHTML = html;
+    const swReview = new Swiper(".sw-review", {
+      slidesPerView: 3,
+      spaceBetween: 16,
+      slidesPerGroup: 3,
+      navigation: {
+        prevEl: ".review .slide-prev",
+        nextEl: ".review .slide-next",
+      },
+      pagination: {
+        el: ".review .slide-pg",
+        type: "fraction",
+      },
+    });
+  }
+
+  // 공지사항 화면 출력 기능
+  function showNotice() {
+    let html = "";
+    // 데이터 갱신
+    NOTICE_ARR.forEach(function (item) {
+      const tag = `
+      <li>
+        <a href="${item.link}">
+          <span>
+            ${item.title}
+          </span>
+          <em>${item.date}</em>
+        </a>
+      </li>
+      `;
+      html += tag;
+    });
+    noticeTag.innerHTML = html;
+  }
+
+  // 물품 소식 화면 출력 기능
+  function showGoodnews() {
+    let html = "";
+    // 데이터 갱신
+    GOODNEWS_ARR.forEach(function (item) {
+      const tag = `
+      <li>
+        <a href="${item.link}">
+          <span>
+            ${item.title}
+          </span>
+          <em>${item.date}</em>
+        </a>
+      </li>
+      `;
+      html += tag;
+    });
+    goodnewsTag.innerHTML = html;
+  }
+
+  // 커뮤니티 탭메뉴
+  // 탭 버튼
+  const tabBtArr = document.querySelectorAll(".community-bt");
+  // 탭 내용
+  const tabConArr = document.querySelectorAll(".community-notice dd");
+  // 탭 포커스
+  let tabFocusIndex = 0;
+  // 탭 버튼 클릭 처리
+  tabBtArr.forEach(function (item, index) {
+    item.addEventListener("click", function () {
+      tabFocusIndex = index;
+      tabFocusFn();
+    });
+  });
+
+  // 탭 포커스 함수를 생성
+  function tabFocusFn() {
+    // 포커스 css를 적용 및 제거
+    // 일단 모두 제거
+    tabBtArr.forEach(function (item) {
+      item.classList.remove("community-bt-active");
+    });
+    // 인덱스에 해당하는 것만 적용
+    tabBtArr[tabFocusIndex].classList.add("community-bt-active");
+    // 내용에서 일단 모두 제거
+    tabConArr.forEach(function (item) {
+      item.classList.remove("community-visible-active")
+    });
+    tabConArr[tabFocusIndex].classList.add("community-visible-active");
   }
 
   // =========================================
