@@ -68,7 +68,7 @@
       "unit": "150g",
       "price": "2250",
       "tag": "인기",
-      "pic": "/images/good_1.jpg",
+      "pic": "./images/good_1.jpg",
       "id": "0",
       "link": "#"
     },
@@ -77,7 +77,7 @@
       "unit": "30장",
       "price": "1100",
       "tag": "인기",
-      "pic": "/images/good_2.jpg",
+      "pic": "./images/good_2.jpg",
       "id": "1",
       "link": "#"
     },
@@ -86,7 +86,7 @@
       "unit": "200g",
       "price": "2500",
       "tag": "인기",
-      "pic": "/images/good_3.jpg",
+      "pic": "./images/good_3.jpg",
       "id": "2",
       "link": "#"
     },
@@ -95,7 +95,7 @@
       "unit": "1kg",
       "price": "3600",
       "tag": "인기",
-      "pic": "/images/good_4.jpg",
+      "pic": "./images/good_4.jpg",
       "id": "3",
       "link": "#"
     },
@@ -104,7 +104,7 @@
       "unit": "1kg",
       "price": "5000",
       "tag": "인기",
-      "pic": "/images/good_5.jpg",
+      "pic": "./images/good_5.jpg",
       "id": "4",
       "link": "#"
     },
@@ -113,7 +113,7 @@
       "unit": "500g",
       "price": "3000",
       "tag": "인기",
-      "pic": "/images/good_6.jpg",
+      "pic": "./images/good_6.jpg",
       "id": "5",
       "link": "#"
     },
@@ -122,7 +122,7 @@
       "unit": "500g",
       "price": "3500",
       "tag": "인기",
-      "pic": "/images/good_7.jpg",
+      "pic": "./images/good_7.jpg",
       "id": "6",
       "link": "#"
     },
@@ -131,7 +131,7 @@
       "unit": "200ml",
       "price": "20300",
       "tag": "인기",
-      "pic": "/images/good_8.jpg",
+      "pic": "./images/good_8.jpg",
       "id": "7",
       "link": "#"
     }
@@ -143,7 +143,7 @@
       "unit": "150g",
       "price": "2250",
       "tag": "인기",
-      "pic": "/images/good_1.jpg",
+      "pic": "./images/good_1.jpg",
       "id": "0",
       "link": "#"
     },
@@ -152,7 +152,7 @@
       "unit": "30장",
       "price": "1100",
       "tag": "인기",
-      "pic": "/images/good_2.jpg",
+      "pic": "./images/good_2.jpg",
       "id": "1",
       "link": "#"
     },
@@ -161,7 +161,7 @@
       "unit": "200g",
       "price": "2500",
       "tag": "인기",
-      "pic": "/images/good_3.jpg",
+      "pic": "./images/good_3.jpg",
       "id": "2",
       "link": "#"
     },
@@ -170,7 +170,7 @@
       "unit": "1kg",
       "price": "3600",
       "tag": "인기",
-      "pic": "/images/good_4.jpg",
+      "pic": "./images/good_4.jpg",
       "id": "3",
       "link": "#"
     },
@@ -179,7 +179,7 @@
       "unit": "1kg",
       "price": "5000",
       "tag": "인기",
-      "pic": "/images/good_5.jpg",
+      "pic": "./images/good_5.jpg",
       "id": "4",
       "link": "#"
     },
@@ -188,7 +188,7 @@
       "unit": "500g",
       "price": "3000",
       "tag": "인기",
-      "pic": "/images/good_6.jpg",
+      "pic": "./images/good_6.jpg",
       "id": "5",
       "link": "#"
     },
@@ -197,7 +197,7 @@
       "unit": "500g",
       "price": "3500",
       "tag": "인기",
-      "pic": "/images/good_7.jpg",
+      "pic": "./images/good_7.jpg",
       "id": "6",
       "link": "#"
     },
@@ -206,7 +206,7 @@
       "unit": "200ml",
       "price": "20300",
       "tag": "인기",
-      "pic": "/images/good_8.jpg",
+      "pic": "./images/good_8.jpg",
       "id": "7",
       "link": "#"
     }
@@ -216,35 +216,35 @@
     {
       "title": "국산 꽃사슴 녹용과 홍삼에 한약제를 더한 ‘녹용홍삼정’",
       "txt": "국산 꽃사슴 녹용과 6년근 홍삼에 백작약, 황금, 당귀 등을 더해 드시는 분의 건강을 생각하며 만들었습니다.",
-      "pic": "/images/new_1.jpg",
+      "pic": "./images/new_1.jpg",
       "id": "0",
       "link": "#"
     },
     {
       "title": "국산 꽃사슴 녹용과 6년근 홍삼으로 빚은 ‘녹용홍삼환’",
       "txt": "국산 꽃사슴 녹용과 6년근 홍삼에 영지버섯, 상황버섯, 숙지황 등을 더해 드시는 분의 건강을 생각하며 만들었습니다.",
-      "pic": "/images/new_2.jpg",
+      "pic": "./images/new_2.jpg",
       "id": "1",
       "link": "#"
     },
     {
       "title": "새콤 짭조름해 입맛을 개운하게 하는 ‘명이나물장아찌’",
       "txt": "강원도 명이나물에 양조간장, 유기농현미식초, 유기농설탕으로 절인 장아찌입니다.",
-      "pic": "/images/new_3.jpg",
+      "pic": "./images/new_3.jpg",
       "id": "2",
       "link": "#"
     },
     {
       "title": "제주 딱새우살과 유기 토마토의 만남 ‘칠리새우’",
       "txt": "자연산 제주 딱새우살 튀김과 유기 토마토로 만든 칠리새우가 어우러진 매콤달콤 칠리새우를 집에서 간편하게 즐기세요!",
-      "pic": "/images/new_4.jpg",
+      "pic": "./images/new_4.jpg",
       "id": "3",
       "link": "#"
     },
     {
       "title": "진한 원유에 유기농 딸기를 더한 ‘유기농딸기요구르트’",
       "txt": "유기인증 곡물사료를 먹인 젖소에게 얻는 건강한 원유로 만듭니다.",
-      "pic": "/images/new_5.jpg",
+      "pic": "./images/new_5.jpg",
       "id": "4",
       "link": "#"
     }
@@ -256,7 +256,7 @@
       "unit": "250g",
       "price": "2500",
       "tag": "인기",
-      "pic": "/images/recommend_good_1.jpg",
+      "pic": "./images/recommend_good_1.jpg",
       "id": "0",
       "link": "#"
     },
@@ -265,7 +265,7 @@
       "unit": "300g",
       "price": "3800",
       "tag": "인기",
-      "pic": "/images/recommend_good_2.jpg",
+      "pic": "./images/recommend_good_2.jpg",
       "id": "1",
       "link": "#"
     },
@@ -274,7 +274,7 @@
       "unit": "230g",
       "price": "9500",
       "tag": "새물품",
-      "pic": "/images/recommend_good_3.jpg",
+      "pic": "./images/recommend_good_3.jpg",
       "id": "2",
       "link": "#"
     },
@@ -283,7 +283,7 @@
       "unit": "240g",
       "price": "6200",
       "tag": "인기",
-      "pic": "/images/recommend_good_4.jpg",
+      "pic": "./images/recommend_good_4.jpg",
       "id": "3",
       "link": "#"
     },
@@ -292,7 +292,7 @@
       "unit": "200g",
       "price": "5000",
       "tag": "인기",
-      "pic": "/images/recommend_good_5.jpg",
+      "pic": "./images/recommend_good_5.jpg",
       "id": "4",
       "link": "#"
     },
@@ -301,7 +301,7 @@
       "unit": "100g*4개",
       "price": "5700",
       "tag": "인기",
-      "pic": "/images/recommend_good_6.jpg",
+      "pic": "./images/recommend_good_6.jpg",
       "id": "5",
       "link": "#"
     },
@@ -310,7 +310,7 @@
       "unit": "400g",
       "price": "6800",
       "tag": "인기",
-      "pic": "/images/recommend_good_7.jpg",
+      "pic": "./images/recommend_good_7.jpg",
       "id": "6",
       "link": "#"
     },
@@ -319,7 +319,7 @@
       "unit": "300g",
       "price": "5000",
       "tag": "인기",
-      "pic": "/images/recommend_good_8.jpg",
+      "pic": "./images/recommend_good_8.jpg",
       "id": "7",
       "link": "#"
     }
@@ -328,85 +328,85 @@
   "popularicon": [
     {
       "id": "icon-1",
-      "icon": "/images/icon_1.png",
+      "icon": "./images/icon_1.png",
       "txt": "쌀/잡곡",
       "link": "#"
     },
     {
       "id": "icon-2",
-      "icon": "/images/icon_2.png",
+      "icon": "./images/icon_2.png",
       "txt": "채소/버섯",
       "link": "#"
     },
     {
       "id": "icon-3",
-      "icon": "/images/icon_3.png",
+      "icon": "./images/icon_3.png",
       "txt": "과일/견과",
       "link": "#"
     },
     {
       "id": "icon-4",
-      "icon": "/images/icon_4.png",
+      "icon": "./images/icon_4.png",
       "txt": "축산/축산가공",
       "link": "#"
     },
     {
       "id": "icon-5",
-      "icon": "/images/icon_5.png",
+      "icon": "./images/icon_5.png",
       "txt": "수산/수산가공",
       "link": "#"
     },
     {
       "id": "icon-6",
-      "icon": "/images/icon_6.png",
+      "icon": "./images/icon_6.png",
       "txt": "반찬/양념/가루",
       "link": "#"
     },
     {
       "id": "icon-7",
-      "icon": "/images/icon_7.png",
+      "icon": "./images/icon_7.png",
       "txt": "식사대용/간편식",
       "link": "#"
     },
     {
       "id": "icon-8",
-      "icon": "/images/icon_8.png",
+      "icon": "./images/icon_8.png",
       "txt": "간식/음료/유제품",
       "link": "#"
     },
     {
       "id": "icon-9",
-      "icon": "/images/icon_9.png",
+      "icon": "./images/icon_9.png",
       "txt": "건강/차",
       "link": "#"
     },
     {
       "id": "icon-10",
-      "icon": "/images/icon_10.png",
+      "icon": "./images/icon_10.png",
       "txt": "화장품/오가닉코튼",
       "link": "#"
     },
     {
       "id": "icon-11",
-      "icon": "/images/icon_11.png",
+      "icon": "./images/icon_11.png",
       "txt": "주방/욕실/세정",
       "link": "#"
     },
     {
       "id": "icon-12",
-      "icon": "/images/icon_12.png",
+      "icon": "./images/icon_12.png",
       "txt": "휴지/생활",
       "link": "#"
     },
     {
       "id": "icon-13",
-      "icon": "/images/icon_13.png",
+      "icon": "./images/icon_13.png",
       "txt": "반려동물",
       "link": "#"
     },
     {
       "id": "icon-14",
-      "icon": "/images/icon_14.png",
+      "icon": "./images/icon_14.png",
       "txt": "대용량/어린이집",
       "link": "#"
     }
@@ -967,7 +967,7 @@
       "value1": "51곳",
       "title2": "재배면적",
       "value2": "9,441,668㎡",
-      "pic": "/images/brand_1.png",
+      "pic": "./images/brand_1.png",
       "id": "브랜드1",
       "link": "#"
     },
@@ -977,7 +977,7 @@
       "value1": "105.1톤↓",
       "title2": "소나무",
       "value2": "8,866그루↑",
-      "pic": "/images/brand_2.png",
+      "pic": "./images/brand_2.png",
       "id": "브랜드2",
       "link": "#"
     },
@@ -987,7 +987,7 @@
       "value1": "253.693kg",
       "title2": "재배면적",
       "value2": "72만㎡",
-      "pic": "/images/brand_3.png",
+      "pic": "./images/brand_3.png",
       "id": "브랜드3",
       "link": "#"
     },
@@ -997,7 +997,7 @@
       "value1": "116,000두",
       "title2": "보리농지면적",
       "value2": "800,000㎡",
-      "pic": "/images/brand_4.png",
+      "pic": "./images/brand_4.png",
       "id": "브랜드4",
       "link": "#"
     },
@@ -1007,7 +1007,7 @@
       "value1": "1,640톤↓",
       "title2": "소나무",
       "value2": "248,561그루↑",
-      "pic": "/images/brand_5.png ",
+      "pic": "./images/brand_5.png ",
       "id": "브랜드5",
       "link": "#"
     },
@@ -1017,7 +1017,7 @@
       "value1": "1,436,129kg",
       "title2": "온실가스",
       "value2": "5,055톤↓",
-      "pic": "/images/brand_6.png",
+      "pic": "./images/brand_6.png",
       "id": "브랜드6",
       "link": "#"
     }
@@ -1026,25 +1026,25 @@
   "bannerarr": [
     {
       "link": "#",
-      "image": "/images/banner_1.jpg",
+      "image": "./images/banner_1.jpg",
       "id": "banner1",
       "title": "배너1"
     },
     {
       "link": "#",
-      "image": "/images/banner_2.jpg",
+      "image": "./images/banner_2.jpg",
       "id": "banner2",
       "title": "배너2"
     },
     {
       "link": "#",
-      "image": "/images/banner_3.jpg",
+      "image": "./images/banner_3.jpg",
       "id": "banner3",
       "title": "배너3"
     },
     {
       "link": "#",
-      "image": "/images/banner_4.jpg",
+      "image": "./images/banner_4.jpg",
       "id": "banner4",
       "title": "배너4"
     }
@@ -1054,35 +1054,35 @@
     {
       "id": "season1",
       "link": "#",
-      "pic": "/images/cook_1.jpg",
+      "pic": "./images/cook_1.jpg",
       "title": "대파(500g)",
       "price": 2550
     },
     {
       "id": "season2",
       "link": "#",
-      "pic": "/images/cook_2.jpg",
+      "pic": "./images/cook_2.jpg",
       "title": "말린표고버섯(150g)",
       "price": 11200
     },
     {
       "id": "season3",
       "link": "#",
-      "pic": "/images/cook_3.jpg",
+      "pic": "./images/cook_3.jpg",
       "title": "참기름(300ml)",
       "price": 39800
     },
     {
       "id": "season4",
       "link": "#",
-      "pic": "/images/cook_4.jpg",
+      "pic": "./images/cook_4.jpg",
       "title": "쌀조청(500g)",
       "price": 7200
     },
     {
       "id": "season5",
       "link": "#",
-      "pic": "/images/cook_6.jpg",
+      "pic": "./images/cook_6.jpg",
       "title": "자른다시마(100g)",
       "price": 3300
     }
@@ -1097,7 +1097,7 @@
       "txt": "햇쌀이어서 그런지 밥이 찰지고 구수했습니다.",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "/images/review_1.jpg"
+      "pic": "./images/review_1.jpg"
     },
     {
       "id": "r2",
@@ -1107,7 +1107,7 @@
       "txt": "면이 부드러워져서 더 맛있어졌어요. 전에는 표면이 까끌해서 식감이 안좋았는데 부드럽게 바껴서 넘 좋아요!",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "/images/review_2.jpg"
+      "pic": "./images/review_2.jpg"
     },
     {
       "id": "r3",
@@ -1117,7 +1117,7 @@
       "txt": "다좋은데  가격이  좀비싸 별하나뺐어요 좀저렴하면 자주 사먹겠어요",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "/images/review_3.jpg"
+      "pic": "./images/review_3.jpg"
     },
     {
       "id": "r4",
@@ -1127,7 +1127,7 @@
       "txt": "여드름 피부에 좋은것 같아요..이거로 세수하고 어성초 스킨으로 마무리하니 더 안심이예요..",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "/images/review_4.jpg"
+      "pic": "./images/review_4.jpg"
     },
     {
       "id": "r5",
@@ -1137,7 +1137,7 @@
       "txt": "식구 모두 좋아하는 빵~ 맛있습니다 부드러운 식감~ 굿 ？？ 잘 애용 합니다",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "/images/review_5.jpg"
+      "pic": "./images/review_5.jpg"
     },
     {
       "id": "r6",
@@ -1147,7 +1147,7 @@
       "txt": "아기가 좋아해서.자주사먹는데 시중에 파는 카스테라보다 훨씬 달아요ㅠ 설탕을 조금 줄여도 될것같은데 고려해보시면.안될까요?",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "/images/review_6.jpg"
+      "pic": "./images/review_6.jpg"
     }
   ],
 
