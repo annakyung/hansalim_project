@@ -68,7 +68,7 @@
       "unit": "150g",
       "price": "2250",
       "tag": "인기",
-      "pic": "images/good_1.jpg",
+      "pic": "/images/good_1.jpg",
       "id": "0",
       "link": "#"
     },
@@ -77,7 +77,7 @@
       "unit": "30장",
       "price": "1100",
       "tag": "인기",
-      "pic": "images/good_2.jpg",
+      "pic": "/images/good_2.jpg",
       "id": "1",
       "link": "#"
     },
@@ -86,7 +86,7 @@
       "unit": "200g",
       "price": "2500",
       "tag": "인기",
-      "pic": "images/good_3.jpg",
+      "pic": "/images/good_3.jpg",
       "id": "2",
       "link": "#"
     },
@@ -95,7 +95,7 @@
       "unit": "1kg",
       "price": "3600",
       "tag": "인기",
-      "pic": "images/good_4.jpg",
+      "pic": "/images/good_4.jpg",
       "id": "3",
       "link": "#"
     },
@@ -104,7 +104,7 @@
       "unit": "1kg",
       "price": "5000",
       "tag": "인기",
-      "pic": "images/good_5.jpg",
+      "pic": "/images/good_5.jpg",
       "id": "4",
       "link": "#"
     },
@@ -113,7 +113,7 @@
       "unit": "500g",
       "price": "3000",
       "tag": "인기",
-      "pic": "images/good_6.jpg",
+      "pic": "/images/good_6.jpg",
       "id": "5",
       "link": "#"
     },
@@ -122,7 +122,7 @@
       "unit": "500g",
       "price": "3500",
       "tag": "인기",
-      "pic": "images/good_7.jpg",
+      "pic": "/images/good_7.jpg",
       "id": "6",
       "link": "#"
     },
@@ -131,7 +131,7 @@
       "unit": "200ml",
       "price": "20300",
       "tag": "인기",
-      "pic": "images/good_8.jpg",
+      "pic": "/images/good_8.jpg",
       "id": "7",
       "link": "#"
     }
@@ -1097,7 +1097,7 @@
       "txt": "햇쌀이어서 그런지 밥이 찰지고 구수했습니다.",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "review_1.jpg"
+      "pic": "/images/review_1.jpg"
     },
     {
       "id": "r2",
@@ -1107,7 +1107,7 @@
       "txt": "면이 부드러워져서 더 맛있어졌어요. 전에는 표면이 까끌해서 식감이 안좋았는데 부드럽게 바껴서 넘 좋아요!",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "review_2.jpg"
+      "pic": "/images/review_2.jpg"
     },
     {
       "id": "r3",
@@ -1117,7 +1117,7 @@
       "txt": "다좋은데  가격이  좀비싸 별하나뺐어요 좀저렴하면 자주 사먹겠어요",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "review_3.jpg"
+      "pic": "/images/review_3.jpg"
     },
     {
       "id": "r4",
@@ -1127,7 +1127,7 @@
       "txt": "여드름 피부에 좋은것 같아요..이거로 세수하고 어성초 스킨으로 마무리하니 더 안심이예요..",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "review_4.jpg"
+      "pic": "/images/review_4.jpg"
     },
     {
       "id": "r5",
@@ -1137,7 +1137,7 @@
       "txt": "식구 모두 좋아하는 빵~ 맛있습니다 부드러운 식감~ 굿 ？？ 잘 애용 합니다",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "review_5.jpg"
+      "pic": "/images/review_5.jpg"
     },
     {
       "id": "r6",
@@ -1147,7 +1147,7 @@
       "txt": "아기가 좋아해서.자주사먹는데 시중에 파는 카스테라보다 훨씬 달아요ㅠ 설탕을 조금 줄여도 될것같은데 고려해보시면.안될까요?",
       "user": "윤*아",
       "shop": "한살림서울",
-      "pic": "review_6.jpg"
+      "pic": "/images/review_6.jpg"
     }
   ],
 

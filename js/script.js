@@ -233,7 +233,7 @@ window.onload = function () {
       <div class="good-box">
         <!-- 제품 이미지 -->
         <a href="${item.link}" class="good-img">
-          <img src="../images/${item.pic}" alt="${item.name}" />
+          <img src="${item.pic}" alt="${item.name}" />
           <span class="good-type">${item.tag}</span>
         </a>
 
@@ -266,7 +266,7 @@ window.onload = function () {
       <div class="good-box">
         <!-- 제품 이미지 -->
         <a href="${item.link}" class="good-img">
-          <img src="../images/${item.pic}" alt="${item.name}" />
+          <img src="${item.pic}" alt="${item.name}" />
           <span class="good-type">${item.tag}</span>
         </a>
 
@@ -304,7 +304,7 @@ window.onload = function () {
         <div class="good-box">
           <!-- 제품 이미지 -->
           <a href="${item.link}" class="good-img">
-            <img src="../images/${item.pic}" alt="${item.name}" />
+            <img src="${item.pic}" alt="${item.name}" />
             <span class="good-type">${item.tag}</span>
           </a>
 
@@ -402,7 +402,7 @@ window.onload = function () {
         <div class="good-box">
           <!-- 제품 이미지 -->
           <a href="${item.link}" class="good-img">
-            <img src="../images/${item.pic}" alt="${item.name}" />
+            <img src="${item.pic}" alt="${item.name}" />
             <span class="good-type">${item.tag}</span>
           </a>
 
@@ -670,7 +670,7 @@ window.onload = function () {
           </label>
 
           <a href="${item.link}" class="season-good-img">
-            <img src = "../images/${item.pic}" alt ="${item.title}"/>
+            <img src = "${item.pic}" alt ="${item.title}"/>
           </a>
 
           <p class = "season-good-info">
