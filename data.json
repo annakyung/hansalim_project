@@ -68,7 +68,7 @@
       "unit": "150g",
       "price": "2250",
       "tag": "인기",
-      "pic": "//images/good_1.jpg",
+      "pic": "/images/good_1.jpg",
       "id": "0",
       "link": "#"
     },
@@ -77,7 +77,7 @@
       "unit": "30장",
       "price": "1100",
       "tag": "인기",
-      "pic": "//images/good_2.jpg",
+      "pic": "/images/good_2.jpg",
       "id": "1",
       "link": "#"
     },
@@ -86,7 +86,7 @@
       "unit": "200g",
       "price": "2500",
       "tag": "인기",
-      "pic": "//images/good_3.jpg",
+      "pic": "/images/good_3.jpg",
       "id": "2",
       "link": "#"
     },
@@ -95,7 +95,7 @@
       "unit": "1kg",
       "price": "3600",
       "tag": "인기",
-      "pic": "//images/good_4.jpg",
+      "pic": "/images/good_4.jpg",
       "id": "3",
       "link": "#"
     },
@@ -104,7 +104,7 @@
       "unit": "1kg",
       "price": "5000",
       "tag": "인기",
-      "pic": "//images/good_5.jpg",
+      "pic": "/images/good_5.jpg",
       "id": "4",
       "link": "#"
     },
@@ -113,7 +113,7 @@
       "unit": "500g",
       "price": "3000",
       "tag": "인기",
-      "pic": "//images/good_6.jpg",
+      "pic": "/images/good_6.jpg",
       "id": "5",
       "link": "#"
     },
@@ -122,7 +122,7 @@
       "unit": "500g",
       "price": "3500",
       "tag": "인기",
-      "pic": "//images/good_7.jpg",
+      "pic": "/images/good_7.jpg",
       "id": "6",
       "link": "#"
     },
@@ -131,7 +131,7 @@
       "unit": "200ml",
       "price": "20300",
       "tag": "인기",
-      "pic": "//images/good_8.jpg",
+      "pic": "/images/good_8.jpg",
       "id": "7",
       "link": "#"
     }
