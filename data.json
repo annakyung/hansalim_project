@@ -419,7 +419,7 @@
         "unit": "4kg",
         "price": 18800,
         "tag": "인기",
-        "pic": "../images/popGood_1-1.jpg",
+        "pic": "./images/popGood_1-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -428,7 +428,7 @@
         "unit": "8kg",
         "price": 36800,
         "tag": "인기",
-        "pic": "../images/popGood_1-2.jpg",
+        "pic": "./images/popGood_1-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -437,7 +437,7 @@
         "unit": "2kg",
         "price": 9000,
         "tag": "인기",
-        "pic": "../images/popGood_1-3.jpg",
+        "pic": "./images/popGood_1-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -446,7 +446,7 @@
         "unit": "2kg",
         "price": 9500,
         "tag": "인기",
-        "pic": "../images/popGood_1-4.jpg",
+        "pic": "./images/popGood_1-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -458,7 +458,7 @@
         "unit": "2개",
         "price": 1800,
         "tag": "인기",
-        "pic": "../images/popGood_2-1.jpg",
+        "pic": "./images/popGood_2-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -467,7 +467,7 @@
         "unit": "1kg이상",
         "price": 3350,
         "tag": "인기",
-        "pic": "../images/popGood_2-2.jpg",
+        "pic": "./images/popGood_2-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -476,7 +476,7 @@
         "unit": "300g",
         "price": 1550,
         "tag": "인기",
-        "pic": "../images/popGood_2-3.jpg",
+        "pic": "./images/popGood_2-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -485,7 +485,7 @@
         "unit": "250g",
         "price": 3700,
         "tag": "인기",
-        "pic": "../images/popGood_2-4.jpg",
+        "pic": "./images/popGood_2-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -497,7 +497,7 @@
         "unit": "500g",
         "price": 3600,
         "tag": "인기",
-        "pic": "../images/popGood_3-1.jpg",
+        "pic": "./images/popGood_3-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -506,7 +506,7 @@
         "unit": "1kg",
         "price": 5400,
         "tag": "인기",
-        "pic": "../images/popGood_3-2.jpg",
+        "pic": "./images/popGood_3-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -515,7 +515,7 @@
         "unit": "2kg",
         "price": 15700,
         "tag": "인기",
-        "pic": "../images/popGood_3-3.jpg",
+        "pic": "./images/popGood_3-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -524,7 +524,7 @@
         "unit": "7~8kg",
         "price": 23500,
         "tag": "인기",
-        "pic": "../images/popGood_3-4.jpg",
+        "pic": "./images/popGood_3-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -536,7 +536,7 @@
         "unit": "15알/국내산",
         "price": 7050,
         "tag": "인기",
-        "pic": "../images/popGood_4-1.jpg",
+        "pic": "./images/popGood_4-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -545,7 +545,7 @@
         "unit": "안심대안사료/15알",
         "price": 8350,
         "tag": "인기",
-        "pic": "../images/popGood_4-2.jpg",
+        "pic": "./images/popGood_4-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -554,7 +554,7 @@
         "unit": "6알",
         "price": 4400,
         "tag": "인기",
-        "pic": "../images/popGood_4-3.jpg",
+        "pic": "./images/popGood_4-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -563,7 +563,7 @@
         "unit": "2마리/국내산",
         "price": 14200,
         "tag": "인기",
-        "pic": "../images/popGood_4-4.jpg",
+        "pic": "./images/popGood_4-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -575,7 +575,7 @@
         "unit": "40g",
         "price": 2300,
         "tag": "인기",
-        "pic": "../images/popGood_5-1.jpg",
+        "pic": "./images/popGood_5-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -584,7 +584,7 @@
         "unit": "4g*9봉",
         "price": 4200,
         "tag": "인기",
-        "pic": "../images/popGood_5-2.jpg",
+        "pic": "./images/popGood_5-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -593,7 +593,7 @@
         "unit": "10장",
         "price": 1950,
         "tag": "인기",
-        "pic": "../images/popGood_5-3.jpg",
+        "pic": "./images/popGood_5-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -602,7 +602,7 @@
         "unit": "180g",
         "price": 3000,
         "tag": "새물품",
-        "pic": "../images/popGood_5-4.jpg",
+        "pic": "./images/popGood_5-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -614,7 +614,7 @@
         "unit": "420g",
         "price": 2250,
         "tag": "인기",
-        "pic": "../images/popGood_6-1.jpg",
+        "pic": "./images/popGood_6-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -623,7 +623,7 @@
         "unit": "300g",
         "price": 2650,
         "tag": "인기",
-        "pic": "../images/popGood_6-2.jpg",
+        "pic": "./images/popGood_6-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -632,7 +632,7 @@
         "unit": "300g",
         "price": 1600,
         "tag": "인기",
-        "pic": "../images/popGood_6-3.jpg",
+        "pic": "./images/popGood_6-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -641,7 +641,7 @@
         "unit": "120g",
         "price": 550,
         "tag": "인기",
-        "pic": "../images/popGood_6-4.jpg",
+        "pic": "./images/popGood_6-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -653,7 +653,7 @@
         "unit": "330g",
         "price": 1450,
         "tag": "인기",
-        "pic": "../images/popGood_7-1.jpg",
+        "pic": "./images/popGood_7-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -662,7 +662,7 @@
         "unit": "110g/1봉",
         "price": 1650,
         "tag": "인기",
-        "pic": "../images/popGood_7-2.jpg",
+        "pic": "./images/popGood_7-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -671,7 +671,7 @@
         "unit": "500g",
         "price": 8000,
         "tag": "인기",
-        "pic": "../images/popGood_7-3.jpg",
+        "pic": "./images/popGood_7-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -680,7 +680,7 @@
         "unit": "550g",
         "price": 8500,
         "tag": "새물품",
-        "pic": "../images/popGood_7-4.jpg",
+        "pic": "./images/popGood_7-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -692,7 +692,7 @@
         "unit": "종이팩/900ml",
         "price": 4600,
         "tag": "인기",
-        "pic": "../images/popGood_8-1.jpg",
+        "pic": "./images/popGood_8-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -701,7 +701,7 @@
         "unit": "120ml",
         "price": 1300,
         "tag": "인기",
-        "pic": "../images/popGood_8-2.jpg",
+        "pic": "./images/popGood_8-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -710,7 +710,7 @@
         "unit": "범삼/120ml",
         "price": 1100,
         "tag": "인기",
-        "pic": "../images/popGood_8-3.jpg",
+        "pic": "./images/popGood_8-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -719,7 +719,7 @@
         "unit": "900ml",
         "price": 4400,
         "tag": "인기",
-        "pic": "../images/popGood_8-4.jpg",
+        "pic": "./images/popGood_8-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -731,7 +731,7 @@
         "unit": "500g",
         "price": 4200,
         "tag": "인기",
-        "pic": "../images/popGood_9-1.jpg",
+        "pic": "./images/popGood_9-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -740,7 +740,7 @@
         "unit": "100ml*30봉",
         "price": 118800,
         "tag": "인기",
-        "pic": "../images/popGood_9-2.jpg",
+        "pic": "./images/popGood_9-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -749,7 +749,7 @@
         "unit": "유기/150ml*30봉",
         "price": 30000,
         "tag": "인기",
-        "pic": "../images/popGood_9-3.jpg",
+        "pic": "./images/popGood_9-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -758,7 +758,7 @@
         "unit": "10g*18개",
         "price": 3100,
         "tag": "인기",
-        "pic": "../images/popGood_9-4.jpg",
+        "pic": "./images/popGood_9-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -770,7 +770,7 @@
         "unit": "150ml",
         "price": 6700,
         "tag": "인기",
-        "pic": "../images/popGood_10-1.jpg",
+        "pic": "./images/popGood_10-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -779,7 +779,7 @@
         "unit": "70장",
         "price": 16300,
         "tag": "새물품",
-        "pic": "../images/popGood_10-2.jpg",
+        "pic": "./images/popGood_10-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -788,7 +788,7 @@
         "unit": "120ml",
         "price": 8900,
         "tag": "인기",
-        "pic": "../images/popGood_10-3.jpg",
+        "pic": "./images/popGood_10-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -797,7 +797,7 @@
         "unit": "5장",
         "price": 5600,
         "tag": "인기",
-        "pic": "../images/popGood_10-4.jpg",
+        "pic": "./images/popGood_10-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -809,7 +809,7 @@
         "unit": "130g*2개",
         "price": 5000,
         "tag": "인기",
-        "pic": "../images/popGood_11-1.jpg",
+        "pic": "./images/popGood_11-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -818,7 +818,7 @@
         "unit": "보충용:2.1L",
         "price": 10600,
         "tag": "인기",
-        "pic": "../images/popGood_11-2.jpg",
+        "pic": "./images/popGood_11-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -827,7 +827,7 @@
         "unit": "부드러운모/작은헤드",
         "price": 5900,
         "tag": "인기",
-        "pic": "../images/popGood_11-3.jpg",
+        "pic": "./images/popGood_11-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -836,7 +836,7 @@
         "unit": "부드러운모/성인용",
         "price": 5400,
         "tag": "인기",
-        "pic": "../images/popGood_11-4.jpg",
+        "pic": "./images/popGood_11-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -848,7 +848,7 @@
         "unit": "18롤",
         "price": 15500,
         "tag": "인기",
-        "pic": "../images/popGood_12-1.jpg",
+        "pic": "./images/popGood_12-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -857,7 +857,7 @@
         "unit": "6롤",
         "price": 7300,
         "tag": "인기",
-        "pic": "../images/popGood_12-2.jpg",
+        "pic": "./images/popGood_12-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -866,7 +866,7 @@
         "unit": "180매/3상자",
         "price": 5000,
         "tag": "인기",
-        "pic": "../images/popGood_12-3.jpg",
+        "pic": "./images/popGood_12-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -875,7 +875,7 @@
         "unit": "12롤",
         "price": 7600,
         "tag": "인기",
-        "pic": "../images/popGood_12-4.jpg",
+        "pic": "./images/popGood_12-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -887,7 +887,7 @@
         "unit": "60g",
         "price": 6000,
         "tag": "인기",
-        "pic": "../images/popGood_13-1.jpg",
+        "pic": "./images/popGood_13-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -896,7 +896,7 @@
         "unit": "전연령용/1.6kg",
         "price": 19700,
         "tag": "인기",
-        "pic": "../images/popGood_13-2.jpg",
+        "pic": "./images/popGood_13-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -905,7 +905,7 @@
         "unit": "60g",
         "price": 5000,
         "tag": "인기",
-        "pic": "../images/popGood_13-3.jpg",
+        "pic": "./images/popGood_13-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -914,7 +914,7 @@
         "unit": "70g",
         "price": 6200,
         "tag": "인기",
-        "pic": "../images/popGood_13-4.jpg",
+        "pic": "./images/popGood_13-4.jpg",
         "id": "3",
         "link": "#"
       }
@@ -926,7 +926,7 @@
         "unit": "1kg/국내산",
         "price": 22100,
         "tag": "인기",
-        "pic": "../images/popGood_14-1.jpg",
+        "pic": "./images/popGood_14-1.jpg",
         "id": "0",
         "link": "#"
       },
@@ -935,7 +935,7 @@
         "unit": "1kg",
         "price": 19900,
         "tag": "인기",
-        "pic": "../images/popGood_14-2.jpg",
+        "pic": "./images/popGood_14-2.jpg",
         "id": "1",
         "link": "#"
       },
@@ -944,7 +944,7 @@
         "unit": "1kg/4~5마리",
         "price": 19300,
         "tag": "인기",
-        "pic": "../images/popGood_14-3.jpg",
+        "pic": "./images/popGood_14-3.jpg",
         "id": "2",
         "link": "#"
       },
@@ -953,7 +953,7 @@
         "unit": "1kg/국내산",
         "price": 15600,
         "tag": "인기",
-        "pic": "../images/popGood_14-4.jpg",
+        "pic": "./images/popGood_14-4.jpg",
         "id": "3",
         "link": "#"
       }
