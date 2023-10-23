@@ -530,7 +530,7 @@ window.onload = function () {
       <div class="good-box">
         <!-- 제품이미지 -->
         <a href="${item.link}" class="good-img">
-          <img src="images/${item.pic}" alt="${item.name}" />
+          <img src="${item.pic}" alt="${item.name}" />
           <span class="good-type">${item.tag}</span>
         </a>
 
@@ -779,7 +779,7 @@ window.onload = function () {
            </span>
            <span class="review-box-star"> ${item.star} </span>
            <span class="review-box-img">
-           <img src="images/${item.pic}" alt="${item.title}" />
+           <img src="${item.pic}" alt="${item.title}" />
            </span>
          </div>
          <p class="review-box-txt">
